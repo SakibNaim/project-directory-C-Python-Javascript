@@ -1,0 +1,66 @@
+
+h1{
+    color: brown;
+    text-align: center;
+}
+#workstation{
+    width:100%;
+
+}
+#sector2 h2,ol{
+    color: red;
+    text-align: center;
+    text-decoration: none;
+
+
+
+}
+#pixel{
+    width: 40%;
+    padding-left: 30%;
+    
+}
+#sector3 ul li {
+
+    display: inline;
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    text-decoration: none;
+    overflow: hidden;
+    list-style-type: none;
+    
+    
+}
+#Offeringcoures {
+    padding-top: 15px;
+    padding-right: 90px;
+    text-decoration: none;
+    overflow: hidden;
+    list-style-type: none;
+    margin-inline-start: 30px;
+    
+
+}
+#Copyrightissue{
+    
+   
+    padding-left:45px ;
+    padding-right: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    list-style-type: none;
+    
+}
+#Programerscontent{
+
+    
+
+    padding-left:30px ;
+    padding-right: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    list-style-type: none;
+    
+    
+
+}
