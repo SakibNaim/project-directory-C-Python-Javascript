@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}
+.center-nav{
+    display: flex;
+}
+.search{
+    display: flex;
+}
+.search input{
+    min-width: 600px;
+    padding:10px 20px;
+    border: 0.6px solid whitesmoke;
+}
+.search button{
+    border: none;
+    padding: 10px 20px;
+}
+.mic{
+    padding: 15px;
+    border-radius: 50%;
+    background: rgb(156, 156, 156);
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.mic img{
+    width: 39px;
+}
+.side-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+
+}
+.tags{
+    display: flex;
+    padding: 5px 15px;
+    gap:16px;
+    border-top: 1px solid white;
+
+}
+.tag{
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid rgb black (22, 22, 22);
+}
+.dark{
+    background: black;
+    color: aliceblue;
+}
+.light{
+    background:white ;
+    color: black;
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slide-icons img{
+    width:130px;
+}
+.bars{
+    margin-top: 20px;
+}
+.main-container{
+    width:100%;
+}
+main{
+    min-height: 100vh;
+    background-color:  rgb(123, 123, 123);
+}
+
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,min-max(auto-fit,300px,1fr));
+}
+.card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    flex-direction: column;
+}
+.avatar-content{
+    padding-top: 10px;
+    display: flex;
+    gap:5px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.channel-name{
+    font-size: 16px;
+    font-size:14px;
+    gap:10px;
+
+}
+.content-status{
+    display: flex;
+    font-size:14px;
+    gap:14px;
+}
